@@ -1,0 +1,43 @@
+# Environnement Python
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Variables d'environnement (IMPORTANT!)
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+whatsapp_bot.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets (double sécurité)
+secrets.json
+credentials.json
