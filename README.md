@@ -135,7 +135,7 @@ TWILIO_WHATSAPP_NUMBER=whatsapp:+14155238886
 
 # Hugging Face
 HUGGINGFACE_API_KEY=hf_xxxxxxxxxxxxxxxxxxxxxxxxxx
-HUGGINGFACE_MODEL=mistralai/Mistral-7B-Instruct-v0.2
+HUGGINGFACE_MODEL=HuggingFaceH4/zephyr-7b-beta:featherless-ai
 
 # Serveur
 PORT=5000

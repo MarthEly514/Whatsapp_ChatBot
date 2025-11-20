@@ -22,11 +22,11 @@ class Config:
     # Configuration Twilio
     TWILIO_ACCOUNT_SID = os.getenv('TWILIO_ACCOUNT_SID')
     TWILIO_AUTH_TOKEN = os.getenv('TWILIO_AUTH_TOKEN')
-    TWILIO_WHATSAPP_NUMBER = os.getenv('TWILIO_WHATSAPP_NUMBER', 'whatsapp:+14155238886')
+    TWILIO_WHATSAPP_NUMBER = os.getenv('TWILIO_WHATSAPP_NUMBER', 'whatsapp:+12525818652')
     
     # Configuration Hugging Face
     HUGGINGFACE_API_KEY = os.getenv('HUGGINGFACE_API_KEY')
-    HUGGINGFACE_MODEL = os.getenv('HUGGINGFACE_MODEL', 'mistralai/Mistral-7B-Instruct-v0.2')
+    HUGGINGFACE_MODEL = os.getenv('HUGGINGFACE_MODEL', '="HuggingFaceH4/zephyr-7b-beta:featherless-ai"')
     HUGGINGFACE_API_URL = f"https://api-inference.huggingface.co/models/{HUGGINGFACE_MODEL}"
     
     # Paramètres de génération pour Hugging Face

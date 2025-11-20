@@ -3,7 +3,7 @@ Flask==3.0.0
 gunicorn==21.2.0
 
 # Twilio SDK
-twilio==8.11.0
+twilio
 
 # Hugging Face
 huggingface-hub==0.20.2
